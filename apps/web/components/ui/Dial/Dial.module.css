@@ -1,0 +1,41 @@
+.dialContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .2em;
+    width: 4.5em;
+    height: 4.5em;
+}
+
+.miniDialContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .2em;
+    width: 4em;
+    height: 4em;
+}
+
+.miniDialContainer .knobLabel {
+    font-size: .6em;
+}
+
+.miniDialContainer .knobValue {
+    font-size: .6em;
+}
+
+.knob {
+    display: inline;
+    height: 4em;
+    width: 4em;
+}
+
+.knobLabel {
+    text-align: center;
+    font-size: .8em;
+}
+
+.knobValue {
+    font-family: 'Work Sans', sans-serif;
+    fill: #FFFFFF;
+}

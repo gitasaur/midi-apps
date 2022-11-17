@@ -1,0 +1,52 @@
+.sequencer {
+    display: inline-grid;
+    border: #FFFFFF solid;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+    height: 19em;
+    width: 32.5em;
+}
+
+.sequencerBody {
+    display: inline-flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: flex-start;
+}
+
+.noteStack {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid {
+    display: flex;
+}
+
+.note {
+    cursor: pointer;
+    background-color: #202124;
+    opacity: 0.5;
+    border-radius: 5px;
+    width: 2em;
+    height: 1em;
+    margin: 0.1em;
+}
+
+.note:hover {
+    opacity: 0.7;
+}
+
+.note .active {
+    opacity: 0.9;
+}
+
+.note .play {
+    background-color: #101024;
+}
+
+.welcome {
+    display: inline-flex;
+
+}

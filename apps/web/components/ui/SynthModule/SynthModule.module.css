@@ -1,0 +1,31 @@
+.synthModule {
+  display: flex;
+  flex-wrap: wrap;
+  border: #FFFFFF solid;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 1em;
+  height: 19em;
+  width: 14em;
+}
+
+.synthModule h2 {
+  width: 100%;
+}
+
+.synthModule p {
+  font-size: 12px;
+}
+
+.synthModuleHeader {
+  display: flex;
+  flex-grow: initial;
+  flex-direction: column;
+}
+
+.synthModuleBody {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  justify-items: center;
+}

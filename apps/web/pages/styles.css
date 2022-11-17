@@ -1,0 +1,89 @@
+body {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-attachment:fixed;
+    height:100%;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    fill: #fc5a96;
+    color: white;
+}
+
+.background {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-attachment:fixed;
+    height:100%;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    fill: #fc5a96;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 4em;
+    padding: 1em;
+}
+
+main {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    font-size: xxx-large;
+    margin-block-start: .3em;
+    margin-block-end: .3em;
+}
+
+h2 {
+    margin-block-start: 0;
+    margin-block-end: .2em;
+}
+
+p {
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+}
+
+.title {
+    display: flex;
+    width: 20em;
+}
+
+.title h1 {
+    margin: 0;
+}
+
+.moduleHead {
+    display: flex;
+    flex-direction: column;
+}
+
+.audioControls {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 8em;
+    color: #202124;
+}
+
+.audioControls .active {
+    color: #FC5A96;
+}
+
+.dials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
