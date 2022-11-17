@@ -44,7 +44,6 @@ importers:
   apps/web:
     specifiers:
       '@babel/core': ^7.0.0
-      '@elemaudio/compressor': ^1.0.2
       '@elemaudio/core': ^1.0.8
       '@elemaudio/web-renderer': ^1.0.16
       '@emotion/react': ^11.10.5
@@ -65,7 +64,6 @@ importers:
       typescript: ^4.5.3
       ui: workspace:*
     dependencies:
-      '@elemaudio/compressor': 1.0.2
       '@elemaudio/core': 1.0.8
       '@elemaudio/web-renderer': 1.0.16
       '@emotion/react': 11.10.5_cuziicjcvwawlf5iuhzacuhqcy
@@ -341,12 +339,6 @@ packages:
       '@babel/helper-string-parser': 7.19.4
       '@babel/helper-validator-identifier': 7.19.1
       to-fast-properties: 2.0.0
-
-  /@elemaudio/compressor/1.0.2:
-    resolution: {integrity: sha512-YOt2bbm4Edn+wPURNxZ3JCNUbeNrtI5if194wwqZO9Q/WE2D8P+z8GHCqzarCBC0Ff0z+ehAXE3OcWbaN5exVQ==, tarball: http://www.elementary.audio/api/v1/registry/@elemaudio/compressor/-/@elemaudio/compressor-1.0.2.tgz}
-    dependencies:
-      '@elemaudio/core': registry.npmjs.org/@elemaudio/core/1.0.8
-    dev: false
 
   /@elemaudio/core/1.0.8:
     resolution: {integrity: sha512-+chojEufEKg5vS1b4UL+IYYOa6ijqiYDpFCGrw6QnW5Icf+nPX6/+cKyU14jWfrmE4j3C/Y/hdV1qRwzLmWIFQ==}
@@ -2864,13 +2856,4 @@ packages:
   /yaml/1.10.2:
     resolution: {integrity: sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==}
     engines: {node: '>= 6'}
-    dev: false
-
-  registry.npmjs.org/@elemaudio/core/1.0.8:
-    resolution: {integrity: sha512-+chojEufEKg5vS1b4UL+IYYOa6ijqiYDpFCGrw6QnW5Icf+nPX6/+cKyU14jWfrmE4j3C/Y/hdV1qRwzLmWIFQ==, registry: https://www.elementary.audio/api/v1/registry, tarball: https://registry.npmjs.org/@elemaudio/core/-/core-1.0.8.tgz}
-    name: '@elemaudio/core'
-    version: 1.0.8
-    dependencies:
-      invariant: 2.2.4
-      shallowequal: 1.1.0
     dev: false
